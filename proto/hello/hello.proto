@@ -1,0 +1,17 @@
+//server-main/hello-service/proto/hello
+syntax="proto3";
+package go.micro.srv.hello;
+service HelloService {
+  rpc Add(AddData) returns (Response) {}
+}
+message AddData{
+  string name = 1;
+  string content = 2;
+}
+//基础response结构
+message Response{
+  int32 code=1;
+  string msg=2;
+  repeated Data  data=3;
+}
+message Data{}

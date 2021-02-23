@@ -1,0 +1,16 @@
+#  mysql
+mysql_db_dns: ""
+#  redis
+redis:
+  hostname: ""
+  database: 1
+  port: 2020
+  password: ""
+#server
+server:
+  name: "go.micro.srv.hello"
+  version: "latest"
+
+# jaeger
+jaeger:
+  addr: ""

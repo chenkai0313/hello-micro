@@ -1,0 +1,16 @@
+#  mysql
+mysql_db_dns: "test:123123123@tcp(127.0.0.1:3306)/test?charset=utf8"
+#  redis
+redis:
+  hostname: "11.11.11.11"
+  database: 1
+  port: 2020
+  password: "f7457cc5e39e3463"
+#server
+server:
+  name: "go.micro.srv.hello"
+  version: "latest"
+
+# jaeger
+jaeger:
+  addr: "11.11.11.11:6831"
