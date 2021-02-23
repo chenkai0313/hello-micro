@@ -21,7 +21,7 @@ go build main.go
 - 生产/测试环境 选择基于环境变量"env"
 - 内涵盖了常用的的方法(unitls目录下)
 - 封装了图片验证码
-- 封装了rabbmitMq(包含了延迟队列方法封装)
+- 封装了rabbitMq(包含了延迟队列方法封装)
 - 封装了redis
 - 基于makefile 的protobuf
 - 更多内容自行挖掘
