@@ -1,4 +1,3 @@
-//server-main/hello-service/proto/hello
 syntax="proto3";
 package go.micro.srv.hello;
 service HelloService {
